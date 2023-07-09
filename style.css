@@ -3,9 +3,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #eeaeca;
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, #94bbe9 100%);
-  }
+    /* background: #eeaeca;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, #94bbe9 100%); */
+    }
   
   /* Navigation Bar */
   nav {
@@ -38,7 +38,9 @@ body {
     padding: 20px;
     text-align: center;
   }
-  
+  h1{
+    color: #880afd;
+  }
   /* Main Sections */
   section {
     padding: 20px;
@@ -46,6 +48,7 @@ body {
   
   section h2 {
     margin-bottom: 20px;
+    color:#880afd;
   }
   
   /* Project Blocks */
@@ -55,7 +58,6 @@ body {
   
   .project h3 {
     margin-bottom: 10px;
-    text-decoration: wavy;
     font-family: serif;
     text-decoration: underline;
   }
@@ -72,8 +74,11 @@ body {
   .contact p {
     margin-bottom: 10px;
     
-    
+   
 
+  }
+  a {
+    color: #880afd;
   }
   .footer {
     background-color: #f2f2f2;
@@ -91,7 +96,7 @@ body {
   }
   
   /* Responsive Styles */
-  @media (max-width: 500px) {
+  @media (max-width: 200px) {
     nav ul li {
       display: inline;
     }
